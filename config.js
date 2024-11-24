@@ -1,6 +1,6 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "MTMxMDE2MDM3MTc1MTA1OTQ2Ng.GhNkv1.7paFze0p5ZOPGjdzWzTVRl0tf0NsoWeLEJUxuE",
 	/* For the support server */
 	support: {
 		id: "XXXXXXXXXXX", // The ID of the support server
@@ -8,7 +8,7 @@ module.exports = {
 	},
 	/* Dashboard configuration */
 	dashboard: {
-		enabled: false, // whether the dashboard is enabled or not
+		enabled: true, // whether the dashboard is enabled or not
 		secret: "XXXXXXXXXXX", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
 		logs: "XXXXXXXXXXX", // The channel ID of logs
@@ -16,17 +16,17 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
+	mongoDB: "mongodb+srv://KRhero:@#gamingHERO@cluster0.w2kth.mongodb.net/", // The URl of the mongodb database
 	prefix: "*", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		footer: "AlwaysFree-Host" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
 		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		name: "KRhero" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
@@ -51,17 +51,17 @@ module.exports = {
 	},
 	/* The others utils links */
 	others: {
-		github: "https://github.com/Androz2091", // Founder's github account
-		donate: "https://patreon.com/Androz2091" // Donate link
+		github: "", // Founder's github account
+		donate: "" // Donate link
 	},
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "AlwaysFree-Hosting",
 			type: "LISTENING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
+			name: "website : alwaysfree.us.kg",
 			type: "PLAYING"
 		}
 	]
